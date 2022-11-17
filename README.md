@@ -12,7 +12,7 @@ Tecnologia: HTML e CSS
 <br>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/101533133/202310148-307edb67-dfc4-444c-ab16-6fb258de9995.png" width="400px"
+<img src="https://user-images.githubusercontent.com/101533133/202514588-31d4a1a9-80ae-413c-b525-db345156d6c4.png" width="400px"
      />
 </div>
 
