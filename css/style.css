@@ -1,0 +1,363 @@
+*{
+    margin: 0 auto;
+}
+
+body{
+    background-image: url(../img/yasuolol.png);
+    background-size: inherit;
+}
+
+.logoRiot{
+    max-width: 200px;
+}
+
+.conteudo-login{
+    margin-bottom: 28px;
+    height: 31rem;
+    width: 24%;
+    padding: 40px;
+    background-color: white;
+    text-align: center;
+    font-family: arial;
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.iniciar-sessao{
+    margin: 40px;
+    font-size: 30px;
+}
+
+.dados{
+    background-color: #edededdc;
+    opacity: 0.8;
+    height: 2.8rem;
+    width: 85%;
+    border: none;
+    border-radius: 4px;  
+    padding-left: 15px;
+}
+
+.dados:hover{
+    opacity: 1;
+}
+.dados::placeholder{
+    
+    color: #5c5959;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.btn{
+    font-size: 23px;   
+    height: 2.3rem;
+    width: 30%;
+    border: none;
+    border-radius: 3px;
+}
+
+.facebook{
+    background-color: blue;
+    color: white;
+}
+.facebook:hover{
+    background-color: rgb(23, 23, 195);
+}
+
+.google{
+    background-color: white;
+    border: solid 2px rgb(237, 233, 233);
+}
+.google:hover{
+background-color: rgb(237, 233, 233);
+}
+
+.apple{
+    background-color: black;
+    color: white;
+}
+.apple:hover{
+    opacity: 0.9;
+}
+
+label span{
+    margin-right: 57%;
+    font-size: 18px;
+    vertical-align: text-bottom;
+    font-weight: normal;
+}
+
+.checkbox{
+    width: 18px;
+    height: 18px;
+}
+
+.enviar{
+    height: 70px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 0px;
+    margin: 5%;
+    opacity: 0.4;
+}
+
+.seta{
+    font-size: 30px;
+    opacity: 0.4;
+}
+
+.enviar:hover{
+    opacity: 1;
+}
+
+.problema-login{
+    text-decoration: none;
+    color: black;
+    opacity: 0.6;
+    font-size: 12px;
+    font-weight: 800;
+}
+.problema-login:hover{
+    opacity: 1;
+}
+
+#link{
+    color: white;
+    text-decoration: none;
+    opacity: 0.6;
+    font-size: 10px;
+    margin-left: 15px;
+}
+#link:hover{
+    opacity: 1;
+}
+
+footer{
+    margin-top: 10px;
+    color: white;
+    opacity: 0.8;
+    font-size: 8px;
+    margin-left: 15px;
+}
+
+@media only screen and (max-width: 1161px) and (min-width: 885px) {
+    .iniciar-sessao{
+        margin-left: 0 auto;
+        font-size: 24px;      
+    }
+
+    label span{
+        margin-right: 50%;
+        font-size: 18px;
+    }       
+}
+
+@media only screen and (max-width: 999px) and (min-width: 885px) {
+    .iniciar-sessao{
+        margin-left: 0 auto;
+        font-size: 20px;
+    }
+
+    label span{
+        margin-right: 42%;
+        font-size: 18px;       
+    }      
+}
+
+@media only screen and (max-width: 884px) and (min-width: 8px) {
+    .iniciar-sessao{
+        margin-left: 0 auto;
+        font-size: 17px;  
+    }
+
+    label span{
+        margin-right: 42%;
+        font-size: 16px;   
+    } 
+
+    
+}
+@media only screen and (max-width: 801px) and (min-width: 444px) {
+    body{
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    .logoRiot{
+        max-width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;       
+    }
+
+    .conteudo-login{
+        margin-bottom: 10%;
+        height: 35rem;
+        width: 85%;
+        padding: 20px;       
+    }
+
+    #iniciar-sessao{
+        margin: 15px;
+        font-size: 25px;
+    }
+
+    .dados{
+        height: 4rem;
+        width: 85%;
+    }
+
+    .btn{
+        font-size: 28px;   
+        height: 3.5rem;
+        width: 30%;
+    }
+
+    
+    label span{
+        margin-right: 65%;
+        font-size: 18px;
+        vertical-align: 50%;
+        font-weight: normal;
+    }
+    
+    .checkbox{
+        width: 30px;
+        height: 35px;
+        
+    }
+
+    .enviar{
+        height: 70px;
+        width: 80px;
+        border-radius: 20px;
+        font-size: 0px;
+        margin: 1%;
+    }
+
+    .problema-login{
+        font-size: 12px;
+        font-weight: 800;
+        margin-bottom: 250px;
+    }
+
+    .link-rodapé{
+        text-align: center;
+        margin: auto;
+    }
+
+    #link{
+        font-size: 13px;
+        opacity: 0.8;
+    }
+   
+    footer{
+        margin-top: 15%;
+        opacity: 0.8;
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 443px){
+
+    body{
+        background-repeat: no-repeat;
+        background-size: auto;
+    }
+
+    .logoRiot{
+        max-width: 150px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;       
+    }
+
+    .conteudo-login{
+        margin-bottom: 10%;
+        height: 35rem;
+        width: 85%;
+        padding: 20px;       
+    }
+
+    #iniciar-sessao{
+        margin: 15px;
+        font-size: 25px;
+    }
+
+    .dados{
+        height: 4rem;
+        width: 85%;
+    }
+
+    .btn{
+        font-size: 28px;   
+        height: 3.5rem;
+        width: 30%;
+    }
+
+    
+    label span{
+        margin-right: 55%;
+        font-size: 17px;
+        vertical-align: 50%;
+    }
+    
+    .checkbox{
+        width: 30px;
+        height: 35px;
+        
+    }
+
+    .enviar{
+        height: 70px;
+        width: 80px;
+        border-radius: 20px;
+        font-size: 0px;
+        margin: 1%;
+    }
+
+    .problema-login{
+        font-size: 12px;
+        font-weight: 800;
+        margin-bottom: 250px;
+    }
+
+    .link-rodapé{
+        text-align: center;
+        margin: auto;
+    }
+
+    #link{
+        font-size: 13px;
+        opacity: 0.8;
+    }
+   
+    footer{
+        margin-top: 15%;
+        opacity: 0.8;
+        font-size: 13px;
+    }
+}
+
+
+
+
+# Login - League Of Legends
+<div align="center">
+O projeto ainda não está finalizado, ainda vou ajustar ele para mobile mas enquanto isso vou deixar ele por aqui
+<br>
+
+
+
+Site:  https://fabiocostaa.github.io/login-leagueoflegends/ <br>
+Tecnologia: HTML e CSS
+</div>
+
+<br>
+
+<div align="center">
+<img src="https://user-images.githubusercontent.com/101533133/202310148-307edb67-dfc4-444c-ab16-6fb258de9995.png" width="400px"
+     />
+</div>
+
